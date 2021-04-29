@@ -460,8 +460,8 @@ L Device:C Murata-Ceramic-Capacitor-50v1-22uF?
 U 1 1 607B322E
 P 1800 8000
 AR Path="/5FBCFD95/607B322E" Ref="Murata-Ceramic-Capacitor-50v1-22uF?"  Part="1" 
-AR Path="/607B322E" Ref="Murata-Ceramic-Capacitor-50v1-22uF3"  Part="1" 
-F 0 "Murata-Ceramic-Capacitor-50v1-22uF3" H 800 7700 50  0000 L CNN
+AR Path="/607B322E" Ref="50V-10uF"  Part="1" 
+F 0 "50V-10uF" H 800 7700 50  0000 L CNN
 F 1 "C" H 1915 7955 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1838 7850 50  0001 C CNN
 F 3 "~" H 1800 8000 50  0001 C CNN
@@ -708,7 +708,7 @@ U 1 1 607E440F
 P 7450 6950
 F 0 "Q4" V 7699 6950 50  0000 C CNN
 F 1 "IRF540N" V 7790 6950 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7700 6875 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 7700 6875 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 7450 6950 50  0001 L CNN
 	1    7450 6950
 	0    1    1    0   
@@ -719,7 +719,7 @@ U 1 1 607E4415
 P 8850 6950
 F 0 "Q7" V 9099 6950 50  0000 C CNN
 F 1 "IRF540N" V 9190 6950 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9100 6875 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 9100 6875 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 8850 6950 50  0001 L CNN
 	1    8850 6950
 	0    1    1    0   
@@ -736,7 +736,7 @@ U 1 1 607E441E
 P 8500 7600
 F 0 "Q6" V 8749 7600 50  0000 C CNN
 F 1 "IRF540N" V 8840 7600 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8750 7525 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 8750 7525 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 8500 7600 50  0001 L CNN
 	1    8500 7600
 	0    1    1    0   
@@ -747,7 +747,7 @@ U 1 1 607E4424
 P 8400 8300
 F 0 "Q5" V 8649 8300 50  0000 C CNN
 F 1 "IRF540N" V 8740 8300 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8650 8225 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 8650 8225 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 8400 8300 50  0001 L CNN
 	1    8400 8300
 	0    1    1    0   
@@ -798,7 +798,7 @@ U 1 1 607E4440
 P 7200 7600
 F 0 "Q3" V 7449 7600 50  0000 C CNN
 F 1 "IRF540N" V 7540 7600 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7450 7525 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 7450 7525 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 7200 7600 50  0001 L CNN
 	1    7200 7600
 	0    1    1    0   
@@ -888,7 +888,7 @@ U 1 1 607E4471
 P 6850 8150
 F 0 "Q2" V 7099 8150 50  0000 C CNN
 F 1 "IRF540N" V 7190 8150 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7100 8075 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 7100 8075 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 6850 8150 50  0001 L CNN
 	1    6850 8150
 	0    1    1    0   
@@ -1266,7 +1266,7 @@ U 1 1 607EA41A
 P 17000 6750
 F 0 "U12" H 17000 7415 50  0000 C CNN
 F 1 "stepStick" H 17000 7324 50  0000 C CNN
-F 2 "" H 16750 6750 50  0001 C CNN
+F 2 "knownParts:STEPSTICK" H 16750 6750 50  0001 C CNN
 F 3 "" H 16750 6750 50  0001 C CNN
 	1    17000 6750
 	1    0    0    -1  
@@ -1574,7 +1574,7 @@ U 1 1 60774AA3
 P 6300 4300
 F 0 "J2" H 6350 4617 50  0000 C CNN
 F 1 "Conn_02x03_Counter_Clockwise" H 6350 4526 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 6300 4300 50  0001 C CNN
+F 2 "knownParts:PinHeader_2x03_P2.54mm_Vertical-CounterClockWise" H 6300 4300 50  0001 C CNN
 F 3 "~" H 6300 4300 50  0001 C CNN
 	1    6300 4300
 	1    0    0    -1  
@@ -1878,7 +1878,7 @@ U 1 1 608962D7
 P 1400 9700
 F 0 "U1" H 1625 9865 50  0000 C CNN
 F 1 "POTENTIOMETER-OpenSourceCelluloid" H 1625 9774 50  0000 C CNN
-F 2 "" H 1400 9700 50  0001 C CNN
+F 2 "OpenCelluloid:PDB12-H4301-Potentiometer" H 1400 9700 50  0001 C CNN
 F 3 "" H 1400 9700 50  0001 C CNN
 	1    1400 9700
 	1    0    0    -1  
@@ -2061,7 +2061,7 @@ F 3 "" H 20200 15750 50  0001 C CNN
 $EndComp
 Text GLabel 8250 1100 2    50   Input ~ 0
 _SENSOR
-Text GLabel 25450 14100 0    50   Input ~ 0
+Text GLabel 25400 14850 0    50   Input ~ 0
 SENSOR-SIMPLE
 $Comp
 L ariadne-v3-cache:+3.3V #PWR038
@@ -2315,7 +2315,7 @@ U 1 1 6082962D
 P 21300 11300
 F 0 "U15" H 21300 11617 50  0000 C CNN
 F 1 "74HC14" H 21300 11526 50  0000 C CNN
-F 2 "" H 21300 11300 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 21300 11300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 21300 11300 50  0001 C CNN
 	1    21300 11300
 	1    0    0    -1  
@@ -2423,14 +2423,14 @@ Wire Wire Line
 Wire Wire Line
 	21300 12850 21300 13000
 $Comp
-L 74xx:74HC14 U16
-U 1 1 60829675
+L 74xx:74HC14 U15
+U 2 1 60829675
 P 21900 12350
-F 0 "U16" H 21900 12667 50  0000 C CNN
+F 0 "U15" H 21900 12667 50  0000 C CNN
 F 1 "74HC14" H 21900 12576 50  0000 C CNN
-F 2 "" H 21900 12350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 21900 12350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 21900 12350 50  0001 C CNN
-	1    21900 12350
+	2    21900 12350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2473,7 +2473,7 @@ U 1 1 6082968E
 P 22050 11600
 F 0 "C9" V 21798 11600 50  0000 C CNN
 F 1 "C" V 21889 11600 50  0000 C CNN
-F 2 "" H 22088 11450 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 22088 11450 50  0001 C CNN
 F 3 "~" H 22050 11600 50  0001 C CNN
 	1    22050 11600
 	0    1    1    0   
@@ -2501,14 +2501,14 @@ $EndComp
 Wire Wire Line
 	22500 11600 22200 11600
 $Comp
-L 74xx:74HC14 U17
-U 1 1 608296A0
+L 74xx:74HC14 U15
+U 3 1 608296A0
 P 23450 12350
-F 0 "U17" H 23450 12667 50  0000 C CNN
+F 0 "U15" H 23450 12667 50  0000 C CNN
 F 1 "74HC14" H 23450 12576 50  0000 C CNN
-F 2 "" H 23450 12350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 23450 12350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 23450 12350 50  0001 C CNN
-	1    23450 12350
+	3    23450 12350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2539,7 +2539,7 @@ U 1 1 608296B2
 P 23050 12700
 F 0 "C10" H 22935 12654 50  0000 R CNN
 F 1 "C" H 22935 12745 50  0000 R CNN
-F 2 "" H 23088 12550 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 23088 12550 50  0001 C CNN
 F 3 "~" H 23050 12700 50  0001 C CNN
 	1    23050 12700
 	-1   0    0    1   
@@ -2566,7 +2566,7 @@ F 3 "~" H 24750 12350 50  0001 C CNN
 	1    24750 12350
 	0    1    1    0   
 $EndComp
-Text GLabel 25950 14200 2    50   Input ~ 0
+Text GLabel 25900 15050 2    50   Input ~ 0
 _SENSOR
 $Comp
 L Device:LED D14
@@ -2602,7 +2602,7 @@ U 1 1 608296D4
 P 24350 10900
 F 0 "J11" H 24400 11117 50  0000 C CNN
 F 1 "Conn_02x02_Counter_Clockwise" H 24400 11026 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 24350 10900 50  0001 C CNN
+F 2 "knownParts:PinSocket_2x02_P2.54mm_Vertical_CounterClockWise" H 24350 10900 50  0001 C CNN
 F 3 "~" H 24350 10900 50  0001 C CNN
 	1    24350 10900
 	1    0    0    -1  
@@ -2623,24 +2623,8 @@ Wire Wire Line
 Wire Wire Line
 	24650 10900 24650 11000
 Connection ~ 24650 11000
-$Comp
-L Connector_Generic:Conn_02x03_Counter_Clockwise J12
-U 1 1 608825F9
-P 25650 14100
-F 0 "J12" H 25700 14417 50  0000 C CNN
-F 1 "Conn_02x03_Counter_Clockwise" H 25700 14326 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 25650 14100 50  0001 C CNN
-F 3 "~" H 25650 14100 50  0001 C CNN
-	1    25650 14100
-	1    0    0    -1  
-$EndComp
-Text GLabel 25450 14200 0    50   Input ~ 0
+Text GLabel 25400 14950 0    50   Input ~ 0
 SENSOR-SYNKINO
-Wire Wire Line
-	25950 14000 25950 14100
-Connection ~ 25950 14100
-Wire Wire Line
-	25950 14100 25950 14200
 $Comp
 L Sensor_Proximity:QRE1113 U14
 U 1 1 608CAE06
@@ -2674,14 +2658,8 @@ F 3 "~" H 20950 14000 50  0001 C CNN
 	1    20950 14000
 	-1   0    0    1   
 $EndComp
-Text GLabel 19050 14150 0    50   Input ~ 0
-SENSOR+
-Text GLabel 21200 14350 2    50   Input ~ 0
-SENSOR-
 Text GLabel 21200 14150 2    50   Input ~ 0
 SENSOR-SIGNAL
-Wire Wire Line
-	19050 14150 19550 14150
 Wire Wire Line
 	19900 14150 20300 14150
 Wire Wire Line
@@ -2705,9 +2683,7 @@ Wire Wire Line
 Wire Wire Line
 	21050 14550 21050 14350
 Connection ~ 21050 14350
-Wire Wire Line
-	21050 14350 21200 14350
-Text GLabel 25450 14000 0    50   Input ~ 0
+Text GLabel 25400 14750 0    50   Input ~ 0
 SENSOR-CRASS
 Text GLabel 25100 11000 2    50   Input ~ 0
 SENSOR-SYNKINO
@@ -2924,7 +2900,7 @@ U 1 1 60BB5B40
 P 6250 900
 F 0 "J3" H 6300 1117 50  0000 C CNN
 F 1 "Conn_02x02_Counter_Clockwise" H 6300 1026 50  0000 C CNN
-F 2 "" H 6250 900 50  0001 C CNN
+F 2 "knownParts:PinSocket_2x02_P2.54mm_Vertical_CounterClockWise" H 6250 900 50  0001 C CNN
 F 3 "~" H 6250 900 50  0001 C CNN
 	1    6250 900 
 	1    0    0    -1  
@@ -3111,4 +3087,197 @@ Wire Wire Line
 	1800 4750 2150 4750
 Wire Wire Line
 	3050 4750 3600 4750
+$Comp
+L 74xx:74HC14 U15
+U 7 1 608D4411
+P 22800 10500
+F 0 "U15" V 22433 10500 50  0000 C CNN
+F 1 "74HC14" V 22524 10500 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 22800 10500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 22800 10500 50  0001 C CNN
+	7    22800 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR059
+U 1 1 608D7E6B
+P 22150 10500
+F 0 "#PWR059" H 22150 10250 50  0001 C CNN
+F 1 "GNDD" H 22154 10345 50  0000 C CNN
+F 2 "" H 22150 10500 50  0001 C CNN
+F 3 "" H 22150 10500 50  0001 C CNN
+	1    22150 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	22150 10500 22300 10500
+$Comp
+L ariadne-v3-cache:+3.3V #PWR080
+U 1 1 608F83C5
+P 23550 10500
+F 0 "#PWR080" H 23550 10350 50  0001 C CNN
+F 1 "+3.3V" H 23565 10673 50  0000 C CNN
+F 2 "" H 23550 10500 50  0001 C CNN
+F 3 "" H 23550 10500 50  0001 C CNN
+	1    23550 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	23550 10500 23300 10500
+$Comp
+L ariadne-v3-cache:ariadne-rescue_Noctua-NF-A4x10-Fan-mech-ariadne U17
+U 1 1 609B6527
+P 20600 2500
+F 0 "U17" H 21028 2463 50  0000 L CNN
+F 1 "ariadne-rescue_Noctua-NF-A4x10-Fan-mech-ariadne" H 21028 2372 50  0000 L CNN
+F 2 "ariadne:Noctua-NF-A4x10" H 19450 2850 50  0001 C CNN
+F 3 "" H 19450 2850 50  0001 C CNN
+	1    20600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ariadne-v3-cache:ariadne-rescue_Noctua-NF-A4x10-Simple-Fan-ariadne U18
+U 1 1 609B83F8
+P 22700 3550
+F 0 "U18" H 23128 3629 50  0000 L CNN
+F 1 "ariadne-rescue_Noctua-NF-A4x10-Simple-Fan-ariadne" H 23128 3538 50  0000 L CNN
+F 2 "ariadne:Noctua-NF-A4x10" H 21550 3900 50  0001 C CNN
+F 3 "" H 21550 3900 50  0001 C CNN
+	1    22700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L ariadne-rescue:Bridgelux-Vero-29-mech-ariadne U16
+U 1 1 609BB08F
+P 18350 3550
+F 0 "U16" H 18478 3584 50  0000 L CNN
+F 1 "Bridgelux-Vero-29-mech-ariadne" H 18478 3493 50  0000 L CNN
+F 2 "ariadne:Vero-29" H 18350 3550 50  0001 C CNN
+F 3 "" H 18350 3550 50  0001 C CNN
+	1    18350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR082
+U 1 1 609F431C
+P 22600 3250
+F 0 "#PWR082" H 22600 3100 50  0001 C CNN
+F 1 "+12V" H 22615 3423 50  0000 C CNN
+F 2 "" H 22600 3250 50  0001 C CNN
+F 3 "" H 22600 3250 50  0001 C CNN
+	1    22600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 609F760B
+P 22400 3250
+AR Path="/5FBCFD95/609F760B" Ref="#PWR?"  Part="1" 
+AR Path="/609F760B" Ref="#PWR081"  Part="1" 
+F 0 "#PWR081" H 22400 3000 50  0001 C CNN
+F 1 "GND" H 22405 3077 50  0000 C CNN
+F 2 "" H 22400 3250 50  0001 C CNN
+F 3 "" H 22400 3250 50  0001 C CNN
+	1    22400 3250
+	-1   0    0    1   
+$EndComp
+Text GLabel 21200 14350 2    50   Input ~ 0
+SENSOR-
+Wire Wire Line
+	21050 14350 21200 14350
+Text GLabel 19050 14150 0    50   Input ~ 0
+SENSOR+
+Wire Wire Line
+	19050 14150 19550 14150
+$Comp
+L Connector:Conn_01x03_Male J12
+U 1 1 60C0E068
+P 16550 15300
+F 0 "J12" H 16658 15581 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 16658 15490 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 16550 15300 50  0001 C CNN
+F 3 "~" H 16550 15300 50  0001 C CNN
+	1    16550 15300
+	1    0    0    -1  
+$EndComp
+Text GLabel 16750 15300 2    50   Input ~ 0
+_SENSOR-SIGNAL
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J13
+U 1 1 60C3AB96
+P 17700 15200
+F 0 "J13" H 17750 15417 50  0000 C CNN
+F 1 "Conn_02x02_Counter_Clockwise" H 17750 15326 50  0000 C CNN
+F 2 "knownParts:PinSocket_2x02_P2.54mm_Vertical_CounterClockWise" H 17700 15200 50  0001 C CNN
+F 3 "~" H 17700 15200 50  0001 C CNN
+	1    17700 15200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17500 15300 17500 15200
+Wire Wire Line
+	17500 15200 16750 15200
+Connection ~ 17500 15200
+$Comp
+L ariadne-v3-cache:+3.3V #PWR083
+U 1 1 60CA6CD0
+P 18750 15200
+F 0 "#PWR083" H 18750 15050 50  0001 C CNN
+F 1 "+3.3V" H 18765 15373 50  0000 C CNN
+F 2 "" H 18750 15200 50  0001 C CNN
+F 3 "" H 18750 15200 50  0001 C CNN
+	1    18750 15200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18750 15200 18000 15200
+$Comp
+L power:+5V #PWR?
+U 1 1 60CCEF94
+P 18950 15300
+AR Path="/5FBCFD95/60CCEF94" Ref="#PWR?"  Part="1" 
+AR Path="/60CCEF94" Ref="#PWR084"  Part="1" 
+F 0 "#PWR084" H 18950 15150 50  0001 C CNN
+F 1 "+5V" H 18965 15473 50  0000 C CNN
+F 2 "" H 18950 15300 50  0001 C CNN
+F 3 "" H 18950 15300 50  0001 C CNN
+	1    18950 15300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18950 15300 18000 15300
+$Comp
+L power:GNDD #PWR085
+U 1 1 60CF4CF1
+P 19100 15400
+F 0 "#PWR085" H 19100 15150 50  0001 C CNN
+F 1 "GNDD" H 19104 15245 50  0000 C CNN
+F 2 "" H 19100 15400 50  0001 C CNN
+F 3 "" H 19100 15400 50  0001 C CNN
+	1    19100 15400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16750 15400 19100 15400
+$Comp
+L Connector_Generic:Conn_02x04_Counter_Clockwise J14
+U 1 1 60D48F75
+P 25600 14850
+F 0 "J14" H 25650 15167 50  0000 C CNN
+F 1 "Conn_02x04_Counter_Clockwise" H 25650 15076 50  0000 C CNN
+F 2 "knownParts:PinHeader_2x04_P2.54mm_Vertical-CounterClowckWise" H 25600 14850 50  0001 C CNN
+F 3 "~" H 25600 14850 50  0001 C CNN
+	1    25600 14850
+	1    0    0    -1  
+$EndComp
+Text GLabel 25400 15050 0    50   Input ~ 0
+_SENSOR-SIGNAL
+Wire Wire Line
+	25900 14750 25900 14850
+Connection ~ 25900 14850
+Wire Wire Line
+	25900 14850 25900 14950
+Connection ~ 25900 14950
+Wire Wire Line
+	25900 14950 25900 15050
 $EndSCHEMATC
